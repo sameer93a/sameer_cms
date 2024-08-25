@@ -8,6 +8,7 @@ export default async function MyCoursesPage() {
   if (!session?.user) {
     return <Redirect to={'/'} />;
   }
+  console.log('1');
 
   return (
     <div className="flex h-screen flex-col">
